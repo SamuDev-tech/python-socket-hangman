@@ -8,3 +8,17 @@ Questo progetto in Python è un gioco dell'impiccato creato utilizzando i **sock
 ## Cosa è rimasto incompleto?
 - Risoluzione del bug menzionato sopra.
 - L'intero lato client.
+
+## Cosa ho imparato da questo progetto?
+- **Sintassi e basi di Python:**
+  - Definizione di funzioni (`def`) e gestione del flusso di controllo (`if`, `while`, `break` ecc.).
+  - Manipolazione delle stringhe (sostituzione delle lettere indovinate, formattazione dei messaggi di gioco).
+  - Gestione delle strutture dati per tenere traccia dello stato della partita (tentativi, parole, input).
+  - L'uso e la funzione dei commenti nei linguaggi di programmazione.
+- **Programmazione di rete e Socket:**
+  - Creazione e configurazione di socket con il modulo nativo `socket` di Python.
+  - Gestione del ciclo di vita della connessione lato server (`bind()`, `listen()`, `accept()`).
+  - Scambio di dati tramite `send()` e `recv()` e relativa codifica/decodifica del testo (`encode()` / `decode()`).
+- **Architettura Client-Server e Protocollo:**
+  - Come strutturare la logica di un gioco multiplayer/remoto separando l'elaborazione (Server) dall'interfaccia (Client).
+  - L'importanza del sincronismo nei protocolli di rete: coordinare ogni `send()` con una rispettiva `recv()` per evitare che il flusso di comunicazione si blocchi o si desincronizzi.
