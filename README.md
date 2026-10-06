@@ -13,6 +13,7 @@ Questo progetto in Python è un gioco dell'impiccato creato utilizzando i **sock
 - **Sintassi e basi di Python:**
   - Definizione di funzioni (`def`) e gestione del flusso di controllo (`if`, `while`, `break` ecc.).
   - Manipolazione delle stringhe (sostituzione delle lettere indovinate, formattazione dei messaggi di gioco).
+  - Logica di input (`input()`) e output(`print()`)
   - Gestione delle strutture dati per tenere traccia dello stato della partita (tentativi, parole, input).
   - L'uso e la funzione dei commenti nei linguaggi di programmazione.
 - **Programmazione di rete e Socket:**
